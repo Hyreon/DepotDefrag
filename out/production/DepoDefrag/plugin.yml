@@ -1,0 +1,33 @@
+name: DepoDefrag
+description: Catalogues and combines items across chests.
+main: top.hyreon.depoDefrag.DepoDefragPlugin
+version: 1.0
+api-version: 1.19
+commands:
+  depo:
+    description: Depo base command.
+    usage: "/depo"
+  deponew:
+    description: Count how many of each item you have in a group of chests.
+    usage: "/depo new <ID> [distance=1]"
+  depofind:
+    description: Find items in a depo.
+    usage: "/depo find <ID> <item>"
+  depocount:
+    description: Count items in a depo.
+    usage: "/depo count <ID> [page]"
+  depodefrag:
+    description: Combine items across a depo.
+    usage: "/depo defrag <ID> [light/SAFE/compact/full]"
+  depodelete:
+    description: Save a depo for later use.
+    usage: "/depo delete <ID>"
+  depolist:
+    description: List all available depos.
+    usage: "/depo list"
+  depoupdate:
+    description: Update a depo by adding/removing chests.
+    usage: "/depo update <ID> [distance=1] ADD/subtract"
+  depoflag:
+    description: Flag a chest as special.
+    usage: "/depo flag <ID> <empty/locked/link>"

@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="DepotDefrag">
+    <output-path>$PROJECT_DIR$/out/artifacts/DepotDefrag</output-path>
+    <root id="archive" name="DepotDefrag.jar">
+      <element id="module-output" name="DepotDefrag" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,100 @@
+bad_command: "&cI must inform thee that thy subcommand doth bear an invalid nature. Pray, employeth /depot for aid."
+help_commands: "-------- COMMANDS\n
+&f/depot&x: Thy orders about the depositories.\n
+&f/depot list&x: Listeth all extant depositories.\n
+&f/depot new&x: Createth a new depository, perchance.\n
+&f/depot count&x: Count all the trinkets in the depository.\n
+&f/depot find&x: Seeketh a particular trinket in a depository.\n
+&f/depot cancel&x: Give the engine a spot of rest.\n
+&f/depot defrag&x: Arrange the depository in a more fitting manner.\n
+&f/depot delete&x: Remove a depository from existence.\n
+&f/depot update&x: Expand or purify the boundaries of a depository.\n
+&f/depot share&x: Allow thou friends to bask in your wealth.\n
+&f/depot owner&x: If thou art curious, checketh a depository's master.\n
+&f/depot evac&x: Banish thou enemies from plundering your wealth.\n
+&f/depot verify&x: Verily, know if a depository has been mangled or unreasonably far aways.\n
+&f/depot sync&x: Unmanglify thy depository.\n"
+help_creation: "-------- CREATION\n
+Create a new depot by looking at a chest and using &f/depot new <ID> [distance=1]&x.\n
+Chests adjacent to it are included. To get chests slightly out of range, increase the distance.\n
+To get another group of chests, use &f/depot update <ID> [distance=1] [sub/ADD]&x.\n
+If chests are included that you don't want to, use &fSUB&x to subtract chests from the depot.\n
+You can use a distance of &f0&x to get exactly one chest, or chest part.\n
+Use &f/depot&x to find the commands you want to use!"
+need_permission: "&cThy permission to partake in this endeavor has been denied."
+need_name: "&cThou must specify the name of the depository."
+need_player: "&cDear sir, thou must specify the name of thy victim. Er, friend."
+need_ownership: "&cI'm afraid thou art not an owner of that depository!"
+invalid_player: "&ePlayer '%s' hath not graced this realm before."
+share_success: "Thine friend has been bestowed with the right to bask in your wealth."
+share_you: "%s hath bestowed upon thee access to the depository '%s'."
+share_fail: "&e'%s' hath been an owner of depository '%s', even at the beginning."
+evac_success: "Thine enemy has been banished from the right to plunder your wealth."
+evac_you: "&c%s hath revoked thine access to the depository '%s'!"
+evac_fail: "&e'%s' was not an owner of depository '%s', even at the beginning."
+evac_last: "&eThou art the sole owner of this depository. Employeth &f/depot delete&e to remove it."
+only_player: "&eThou hast added all chests in the ether to this depository. (This has done nought.)"
+empty_depot: "&eThis depository would be empty. Cast thine eyes upon a chest to create this depository."
+depot_created: "Depository created with %d chest(s)!"
+no_depot: "&cThat depository doth not exist, alas!"
+depot_exists: "&eThat depository already existeth. Remove it if thou desireth to create a new one."
+depot_deleted: "Depository hath been deleted."
+no_page: "&eThat page doth not exist. Perchance try an earlier one."
+empty_depot_count: "&eThis depository hath been laid entirely bare."
+found_item: "%d chests have been found, and lo, they are glowing!"
+find_interrupted: "&eSearch for the trinket hath been interrupted."
+find_canceled: "Tasks hath been canceled."
+no_finds: "&eNo tasks exist to cancel."
+page: "Page %d/%d"
+manifest_tag_clean: "&a"
+manifest_tag_wasteful: "&e"
+manifest_tag_scattered: "&c"
+manifest_tag_both: "&4"
+manifest_entry_default: "%s%s : %d : %d stack(s) : %d chest(s)"
+manifest_entry: "%s%s : %d (/%d) : %d stack(s) : %d chest(s)"
+manifest_entry_unstackable: "%s%s : %d : %d chest(s)"
+manifest_entry_single: "%s%s : %d"
+log_saved: "Log hath been saved as %s"
+unsupported_defrag: "&cThat arrangement is not supported, I'm afraid."
+fake_defrag_report: "Simple arrangement hath been completed. %d stacks moved betwixt %d chests."
+light_defrag_report: "Rogue trinkets hath been rearranged. %d moves hath made %d new free slots betwixt %d chests."
+order_defrag_report: "Trinket rearrangement hath been completed. %d stacks hath been swapped within %d chests."
+combine_defrag_report: "Compactification hath been completed. %d swaps hath freed %d slots within %d chests."
+default_defrag_report: "Default rearrangement hath been completed. %d items hath swapped; %d new free slots hath been created; and %d chests hath been changed."
+defrag_incomplete: "&eRearrangement hath been most tardy, and has been ceased early. There may yet be more rearrangement to do."
+defrag_no_change: "&eRearrangement is complete. Alas, no changes hath been made."
+invalid_number: "&cInvalid number '%s'."
+too_far: "&cThou art too far from this depository! Thou needest to be within %d blocks."
+need_item: "&cThou needest to specify a trinket to seek."
+bad_item: "&cThat trinket is not of this world. Have you got madness?"
+item_empty: "&eIt seems thou art all out of that trinket, I'm afraid."
+list_depot: "%s%s (%d chests)"
+depot_owned: "&a"
+depot_unowned: ""
+no_depots: "&cThis world is but peasantry! Alas, declare your wealth first &f/depot new&x."
+not_implemented: "&cThis is not yet implemented."
+valid: "That depository is valid, indeed."
+partially_valid: "By that standard, at least, the depository is valid."
+not_valid_block: "This depository containeth the following blocks which are not befitting for storage:"
+not_valid_block_entry: "&e%d, %d, %d: %s"
+not_valid_distance: "This depository containeth the following blocks which are unreasonably far aways:"
+not_valid_distance_entry: "&c%d, %d, %d"
+not_valid_fix: "Thou canst fix these problems manually, or employeth &f/depot sync&x to solve them for thee."
+synced: "Depository hath been synced. %d locations removed."
+synced_distance: "Depository synced. %d locations removed, as unreasonably far aways."
+synced_blocks: "Depository synced. %d locations removed, as not befitting for storage."
+no_change: "&eNot a thing hath been modified. The depository remains unmoved."
+change_added: "Added %d chest(s) to this depository!"
+change_subtracted: "Removed %d chest(s) from this depository!"
+too_long: "&cThat is far too broad a search! Any search range ≥%d is forbidden. Employeth &f/depot update&x to get far away sections."
+warning_long: "&eThis is a broad search and may encumber (or, heaven forbid, destroy) the engine. Employeth the order within 10 seconds to affirm your foolish choice."
+string: "%s"
+get_chests: "Seeking chests..."
+update_cache: "Setting the record up to date..."
+task_light: "Removing rogue trinkets..."
+task_order: "Grouping trinkets by their kind..."
+task_order_precise: "Grouping trinkets by their every jot and tittle..."
+task_combine: "Compactifying..."
+progress: "%s %d / %d"
+search_long: "&eThis order hath been most tardy. Employeth &f/depot cancel&e to cause it to cease."
+chest_locked: "&cMake allowance for the rearrangement that is partaking at this very hour!"

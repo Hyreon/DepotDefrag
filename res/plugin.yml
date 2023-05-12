@@ -1,0 +1,160 @@
+name: DepotDefrag
+description: Catalogues and combines items across chests.
+main: top.hyreon.depotDefrag.DepotDefragPlugin
+version: 1.0
+api-version: 1.19
+commands:
+  depot:
+    description: Depot base command.
+    usage: "/depot"
+  depotnew:
+    description: Count how many of each item you have in a group of chests.
+    usage: "/depot new <ID> [distance=1]"
+  depotfind:
+    description: Find items in a depot.
+    usage: "/depot find <ID> <item>"
+  depotcancel:
+    description: Cancel all your current item searches.
+    usage: "/depot cancel"
+  depotcount:
+    description: Count items in a depot.
+    usage: "/depot count <ID> [page]"
+  depotdefrag:
+    description: Combine items across a depot.
+    usage: "/depot defrag <ID> [correct/combine/group/ALL]"
+  depotdelete:
+    description: Delete a depot.
+    usage: "/depot delete <ID>"
+  depotlist:
+    description: List all available depots.
+    usage: "/depot list"
+  depotupdate:
+    description: Update a depot by adding/removing chests.
+    usage: "/depot update <ID> [distance=1] ADD/subtract"
+  depotowner:
+    description: Get the owner of a depot.
+    usage: "/depot owner <ID>"
+  depotshare:
+    description: Share ownership of a depot with another player.
+    usage: "/depot share <ID> <Player>"
+  depotevac:
+    description: Remove a player from your depot.
+    usage: "/depot evac <ID> <Player>"
+  depotverify:
+    description: Check if a depot's chests are still there and close enough.
+    usage: "/depot verify <ID> [page]"
+  depotsync:
+    description: Remove invalid chests from a depot.
+    usage: "/depot sync <ID>"
+permissions:
+  depot.*:
+    description: Ability to do all depot functions on all depots
+    default: op
+    children:
+      depot.list: true
+      depot.owner: true
+      depot.new: true
+      depot.update.owner: true
+      depot.delete.owner: true
+      depot.count.owner: true
+      depot.find.owner: true
+      depot.defrag.owner: true
+      depot.share.owner: true
+      depot.evac.owner: true
+      depot.sync.owner: true
+      depot.verify.owner: true
+      depot.update.extended_range: true
+      depot.count.any_range: true
+      depot.find.any_range: true
+      depot.defrag.any_range: true
+      depot.evac.self: true
+      depot.update.any: true
+      depot.delete.any: true
+      depot.count.any: true
+      depot.find.any: true
+      depot.defrag.any: true
+      depot.share.any: true
+      depot.evac.any: true
+      depot.sync.any: true
+      depot.verify.any: true
+  depot.info:
+    description: Ability to view depot info
+    default: true
+    children:
+      depot.list: true
+      depot.owner: true
+  depot.manage.owner:
+    description: Ability to add, update, sync and delete your own depots
+    default: true
+    children:
+      depot.new: true
+      depot.update.owner: true
+      depot.verify.owner: true
+      depot.sync.owner: true
+      depot.delete.owner: true
+  depot.use.owner:
+    description: Ability to use depot functions on your own depots
+    default: true
+    children:
+      depot.count.owner: true
+      depot.find.owner: true
+      depot.defrag.owner: true
+  depot.assign.owner:
+    description: Ability to assign ownership on your own depots
+    default: true
+    children:
+      depot.share.owner: true
+      depot.evac.owner: true
+  depot.list:
+    default: true
+  depot.owner:
+    default: true
+  depot.new:
+    default: true
+  depot.update.owner:
+    default: true
+  depot.delete.owner:
+    default: true
+  depot.count.owner:
+    default: true
+  depot.find.owner:
+    default: true
+  depot.defrag.owner:
+    default: true
+  depot.share.owner:
+    default: true
+  depot.evac.owner:
+    default: true
+  depot.sync.owner:
+    default: true
+  depot.verify.owner:
+    default: true
+  depot.update.extended_range:
+    default: op
+  depot.evac.self:
+    description: Can evac oneself, creating an ownerless depot
+    default: op
+  depot.count.any_range:
+    default: op
+  depot.find.any_range:
+    default: op
+  depot.defrag.any_range:
+    default: op
+  depot.update.any:
+    default: op
+  depot.delete.any:
+    default: op
+  depot.count.any:
+    default: op
+  depot.find.any:
+    default: op
+  depot.defrag.any:
+    default: op
+  depot.share.any:
+    default: op
+  depot.evac.any:
+    default: op
+  depot.sync.any:
+    default: op
+  depot.verify.any:
+    default: op

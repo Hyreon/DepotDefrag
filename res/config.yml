@@ -1,0 +1,40 @@
+#what language file should be used?
+locale: en_US
+
+#what color should be used for this plugin's messages?
+default-color: "#E8AE71"
+
+#what is the maximum distance apart for depots that regular players should be able to use?
+safe-distance: 4
+
+#how many chests should be processed at once when updating the cache?
+#more updates, faster sorting. less updates, faster server.
+#40 is taxing on medium-end servers, but doesn't freeze the game.
+update-cache-chunk-size: 40
+
+#what is the maximum distance apart for depots that privileged players should be able to use?
+#if set to negative, this check is skipped - but this may crash the server!
+max-distance: 20
+
+#how close must a chest be to its nearest to be valid?
+#if this is less than max-distance, you may get strange results.
+#if set to negative, this check is skipped - but this can be exploited to teleport items!
+max-update-distance: 12
+
+#how close must a player be from a depot to check its contents? (based on the nearest chest)
+#if negative, this check is skipped.
+max-count-distance: -1
+
+#how close must a player be from a depot to sort it? (based on the nearest chest)
+#if negative, this check is skipped.
+max-find-distance: 8
+
+#how close must a player be from a depot to sort it? (based on the nearest chest)
+#if negative, this check is skipped.
+max-defrag-distance: 8
+
+#how many seconds before the player should be given an update on their command?
+display-interval-time: 1.5
+
+#how many seconds before the player should be able to cancel their command?
+cancel-minimum-time: 5.0

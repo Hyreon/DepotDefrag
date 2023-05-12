@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="DepotDefrag" />
+    </artifacts-to-build>
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d85b6747-633b-4d71-8cae-5ba881608f34" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../CustomBreweryIntelliJ/BeyondPotions/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CustomBreweryIntelliJ/BeyondPotions/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CustomBreweryIntelliJ/BeyondPotions/LICENSE" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="2OqNEDal5kmyu9hDCufLCr1MzRl" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Minecraft_Spigot_Server/spigot-api-1.19.4-R0.1-20230421.091621-67-shaded.jar" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.37350506" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="top.hyreon.depotDefrag" />
+      <recent name="top.hyreon.depoDefrag" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Minecraft\Minecraft-Spigit-Creator\Firebalance\DepoDefrag\res" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Minecraft\Minecraft-Spigit-Creator\Firebalance\DepoDefrag\res" />
+      <recent name="D:\Minecraft\Minecraft-Spigit-Creator\Firebalance\DepoDefrag\languages" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d85b6747-633b-4d71-8cae-5ba881608f34" name="Default Changelist" comment="" />
+      <created>1682284040229</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1682284040229</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="312" y="0" key="#Project_Structure" timestamp="1683484012790">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="312" y="0" key="#Project_Structure/0.0.1920.1040/1920.0.1680.1010@0.0.1920.1040" timestamp="1683484012790" />
+    <state x="718" y="154" key="#com.intellij.ide.util.MemberChooser" timestamp="1683814564032">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="718" y="154" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.0.1680.1010@0.0.1920.1040" timestamp="1683814564032" />
+    <state x="278" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1683483596180">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="278" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040/1920.0.1680.1010@0.0.1920.1040" timestamp="1683483596180" />
+    <state x="576" y="196" key="FileChooserDialogImpl" timestamp="1682284860042">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="576" y="196" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1680.1010@0.0.1920.1040" timestamp="1682284860042" />
+    <state x="312" y="0" key="SettingsEditor" timestamp="1682293543219">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="312" y="0" key="SettingsEditor/0.0.1920.1040/1920.0.1680.1010@0.0.1920.1040" timestamp="1682293543219" />
+    <state x="610" y="388" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1683524174060">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="610" y="388" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1920.1040/1920.0.1680.1010@0.0.1920.1040" timestamp="1683524174060" />
+    <state x="539" y="5" width="840" height="1034" key="search.everywhere.popup" timestamp="1683841779386">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="539" y="5" width="840" height="1034" key="search.everywhere.popup/0.0.1920.1040/1920.0.1680.1010@0.0.1920.1040" timestamp="1683841779386" />
+  </component>
+</project>

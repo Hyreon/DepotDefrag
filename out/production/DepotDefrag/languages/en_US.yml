@@ -1,0 +1,100 @@
+bad_command: "&cInvalid subcommand. Use /depot for help."
+help_commands: "-------- COMMANDS\n
+&f/depot&x: Information on depot commands.\n
+&f/depot list&x: list all existing depots.\n
+&f/depot new&x: create a new depot.\n
+&f/depot count&x: Count all items in a depot.\n
+&f/depot find&x: Find a specific item in a depot.\n
+&f/depot cancel&x: Cancel 'find' and other tasks.\n
+&f/depot defrag&x: Sort or reorganize a depot.\n
+&f/depot delete&x: Delete a depot.\n
+&f/depot update&x: Update a depot by adding/removing chests.\n
+&f/depot share&x: Share ownership of a depot with another player.\n
+&f/depot owner&x: Check who owns a depot.\n
+&f/depot evac&x: Remove a player (or yourself) from your depot.\n
+&f/depot verify&x: Check if a depot's chests are still there and close enough.\n
+&f/depot sync&x: Remove invalid containers from a depot.\n"
+help_creation: "-------- CREATION\n
+Create a new depot by looking at a chest and using &f/depot new <ID> [distance=1]&x.\n
+Chests adjacent to it are included. To get chests slightly out of range, increase the distance.\n
+To get another group of chests, use &f/depot update <ID> [distance=1] [sub/ADD]&x.\n
+If chests are included that you don't want to, use &fSUB&x to subtract chests from the depot.\n
+You can use a distance of &f0&x to get exactly one chest, or chest part.\n
+Use &f/depot&x to find the commands you want to use!"
+need_permission: "&cYou don't have permission to do this."
+need_name: "&cYou must specify the name of the depot."
+need_player: "&cYou need to specify the name of the player."
+need_ownership: "&cYou aren't an owner of that depot!"
+invalid_player: "&ePlayer '%s' hasn't played before."
+share_success: "Successfully shared this depot."
+share_you: "%s has given you access to the depot '%s'."
+share_fail: "&e'%s' is already an owner of depot '%s'."
+evac_success: "Player successfully evacuated."
+evac_you: "&c%s has revoked your access to the depot '%s'!"
+evac_fail: "&e'%s' was not an owner of depot '%s' to begin with."
+evac_last: "&eYou are this depot's only owner. Use &f/depot delete&e to remove this."
+only_player: "&eYou added all chests in the void to this depot. (This did nothing.)"
+empty_depot: "&eThis depot would be empty. Look at a chest to create a depot."
+depot_created: "Depot created with %d chest(s)!"
+no_depot: "&cThat depot doesn't exist!"
+depot_exists: "&eThat depot already exists. Delete it if you want to create a new one."
+depot_deleted: "Depot deleted."
+no_page: "&eThat page does not exist. Try an earlier one."
+empty_depot_count: "&eThis depot is completely empty."
+found_item: "%d chests found, highlighting these!"
+find_interrupted: "&eItem search interrupted."
+find_canceled: "Tasks canceled."
+no_finds: "&eNo tasks to cancel."
+page: "Page %d/%d"
+manifest_tag_clean: "&a"
+manifest_tag_wasteful: "&e"
+manifest_tag_scattered: "&c"
+manifest_tag_both: "&4"
+manifest_entry_default: "%s%s : %d : %d stack(s) : %d chest(s)"
+manifest_entry: "%s%s : %d (/%d) : %d stack(s) : %d chest(s)"
+manifest_entry_unstackable: "%s%s : %d : %d chest(s)"
+manifest_entry_single: "%s%s : %d"
+log_saved: "Log saved as %s"
+unsupported_defrag: "&cThat defrag type is not supported."
+fake_defrag_report: "Simple defrag complete. %d stacks moved between %d chests."
+light_defrag_report: "Straggler correction complete. %d moves made %d new free slots between %d chests."
+order_defrag_report: "Item grouping complete. %d stacks swapped within %d chests."
+combine_defrag_report: "Stack combining complete. %d swaps freed %d slots within %d chests."
+default_defrag_report: "Default sort complete. %d items swapped; %d new free slots; and %d chests changed."
+defrag_incomplete: "&eDefrag was taking a long time and stopped early. There may be more sorting to do."
+defrag_no_change: "&eDefrag complete. No changes made."
+invalid_number: "&cInvalid number '%s'."
+too_far: "&cToo far from this depot! You need to be within %d blocks."
+need_item: "&cYou need to specify an item to find."
+bad_item: "&cThat item doesn't exist, try again."
+item_empty: "&eLooks like you're all out of that item."
+list_depot: "%s%s (%d chests)"
+depot_owned: "&a"
+depot_unowned: ""
+no_depots: "&cThere are no depots! Create the first one with /depot new."
+not_implemented: "&cThis is not yet implemented."
+valid: "That depot is valid."
+partially_valid: "There was nothing left to sync in this category."
+not_valid_block: "This depot contains the following non-storage blocks:"
+not_valid_block_entry: "&e%d, %d, %d: %s"
+not_valid_distance: "This depot contains the following inaccessible chests:"
+not_valid_distance_entry: "&c%d, %d, %d"
+not_valid_fix: "You can fix these problems manually, or use &f/depot sync&x to remove them."
+synced: "Depot synced. %d locations removed."
+synced_distance: "Depot synced. %d locations removed for being too far."
+synced_blocks: "Depot synced. %d locations removed as invalid storage."
+no_change: "&eNothing changed; the depot is the same."
+change_added: "Added %d chest(s) to this depot!"
+change_subtracted: "Removed %d chest(s) from this depot!"
+too_long: "&cThat's far too large! Any search range ≥%d is forbidden. Use 'update' to get far away sections."
+warning_long: "&eThis is a large search range and may slow down (or crash!) the server. Run the command again within 10 seconds to confirm."
+string: "%s"
+get_chests: "Searching for chests..."
+update_cache: "Updating cache..."
+task_light: "Correcting stragglers..."
+task_order: "Grouping items by material..."
+task_order_precise: "Grouping items by metadata..."
+task_combine: "Combining stacks..."
+progress: "%s %d / %d"
+search_long: "&eThis operation is taking a long time. Use &f/depot cancel&e to cancel."
+chest_locked: "&cThis chest is being sorted. Wait a bit!"
